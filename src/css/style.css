@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+    --green: #27ae60;
+    --dark-color: #219150;
+    --blue: #1e90ff;
+    --drak-blue: #1483f3;
+    --rose: #ff4e68;
+    --rose-hover: #f33f5a;
+    --border: 0.1rem solid rgba(0,0,0,0.1);
+    --border-hover: 0.1rem solid var(--black);
+    --box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+html{
+    font-size: 62.5%;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    padding: 0.9rem 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.main{
+    background-color: #f1f2f6;
+    padding: 7rem;
+}
+.main .container .heading{
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+.main .container a i{
+    margin: 0 1rem 0 0.5rem;
+}
+.main .container .row{
+    gap: 4rem;
+}
+.main .container .row .col{
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+.main .container .row .col h2{
+    font-size: 2.5rem;
+}
+.main .container .row .col h4{
+    font-size: 2rem;
+}
+.btn-add{
+    margin: 1rem 0 2rem 0;
+}
+.main .container .table tr th{
+    font-weight: 400;
+}
+.main .container .table tr td{
+    padding: 1rem 0.5rem;
+}
+.main .container .table tr td a i{
+    font-size: 2rem;
+    color: var(--blue);
+    padding: 0 0.5rem;
+}
+.main .container .table tr td a i:hover{
+    color: var(--drak-blue);
+}
+.main .container .table tr td a .delete{
+    margin-top: 0.5rem;
+}
+.main .container .table tr .parent{
+    text-align: center;
+}
+
+.register .form-group span{
+    font-size: 1.6rem;
+}
+.register .form-group input{
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+.register .form-group .gender input{
+    margin-right: 1rem;
+}
+.footer{
+    background-color: var(--green);
+    text-align: center;
+    padding: 10px;
+}
+.footer span{
+    font-size: 20px;
+    color: #fff;
+}
+.footer span a{
+    color: #fff;
+}
